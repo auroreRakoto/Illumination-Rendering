@@ -28,20 +28,21 @@ This project explores advanced GPU-based rendering techniques to simulate realis
 ## Folder Structure
 
 GPU_illumination/
-├── shaders/
-│ ├── vertex_shader.glsl
-│ ├── fragment_shader.glsl
-│ └── ...
-├── textures/
-│ ├── color_map.png
-│ ├── normal_map.png
-│ ├── height_map.png
-│ └── ...
-├── src/
-│ └── main.cpp
-├── include/
-├── README.md
-└── CMakeLists.txt
+├── shaders/                # Shader files
+│   ├── vertex_shader.glsl
+│   ├── fragment_shader.glsl
+│   └── ...
+├── textures/               # Texture maps
+│   ├── color_map.png
+│   ├── normal_map.png
+│   ├── height_map.png
+│   └── ...
+├── src/                    # Source code
+│   └── main.cpp
+├── include/                # Header files
+├── CMakeLists.txt          # Build configuration
+└── README.md               # Project documentation
+
 
 
 ## Dependencies
